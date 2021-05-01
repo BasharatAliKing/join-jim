@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.D jim Project</title>
+    <style>
+         body{
+             background-image: url('./c.jpg.jpg');
+
+         }
+         .left{
+            
+             display: inline-block;
+             position: absolute;
+             left: 40px;
+             top: 30px;
+             color: white;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+           <!-- border: 2px solid red; -->
+             
+
+         }
+         .left img{
+             width: 120px;
+         }
+         .left div{
+              font-size: 10px;
+              text-align: center;
+              line-height: 0px;
+              
+         }
+         .mid{
+             display: block;
+             width: 44%;
+             margin: 60px auto;
+             color: white;
+             top: 30px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             <!-- border: 2px solid red;-->
+        }
+        .navbar{
+
+        }
+        .navbar li{
+              display: inline;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 4px 24px;
+            margin: 6px 2px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: rgb(143, 127, 127);
+        }
+         .right{
+             position: absolute;
+             right: 30px;
+             top: 65px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            <!-- border: 2px solid red;-->
+         }
+         .btn{
+             border: 3px solid rgb(39, 39, 27);
+             border-radius: 20px;
+             padding: 4px 10px;
+         }
+         .btn:hover{
+             background-color: rgb(116, 100, 116);
+         }
+         .container{
+             border: 2px solid rgb(252, 249, 249);
+             border-radius: 20px;
+             width: 420px;
+             margin: 120px 160px;
+             color: white;
+             padding: 30px 40px ;
+             text-align: center;
+         }
+         .form-group input{
+             text-align: center;
+             display: block;
+             width: 410px;
+             margin: 10px 0px;
+             padding: 6px 6px;
+             border: 1px solid rgb(187, 138, 138);
+             border-radius: 20px;
+
+         }
+         .button{
+             color: black;
+             background-color: rgb(123, 165, 125);
+         }
+         .button:hover{
+             background-color: rgb(131, 117, 107);
+         }
+    </style>
+</head>
+<body>
+      <header class="header">
+          <!--Left side for logo-->
+          <div class="left">
+              <img src="./b.jpg.jpg" alt="">
+              <div> <h1>B.D Jim</h1></div>
+          </div>
+          <!--Mid side for Navigation bar-->
+          <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">About Fitness</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div> 
+          </div>
+          <!--Right side for search box or any other thing -->
+          <div class="right">
+              <button class="btn">Call Us Now</button>
+              <button class="btn">Email-us</button>
+          </div>
+    </header>    
+    
+        <div class="container">
+
+
+        <h2>Join the Best Jim of Pattoki Shailhum.</h2>
+        <form action="noaction Php">
+            <div class="form-group">
+            <input type="text" name="" id="" placeholder="User name" required >
+            <input type="text" name="" id="" placeholder="Father name" required>
+            <input type="number" name="" id="" placeholder="Enter Your Cell Number " required>
+            <input type="text" name="" id="" placeholder="Enter Your Email address Here" required>
+            <input type="text" name="" id="" placeholder="Enter Your Locality" required>
+        </div>
+            <label  class="gender">Please Select Your Gender:</label><br>
+            <input type="radio" name="gender" id="male">
+            <label for="" >Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="" >Female</label>
+            <input type="radio" name="gender" id="custom">
+            <label for="" >Custom</label><br><br>
+            <button class="button"> Submit</button>
+            
+       
+        </div>
+    </form>
+   
+
+    
+</body>
+</html>
